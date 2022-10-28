@@ -1,8 +1,8 @@
 .contener {
-    max-width: 1400px;
+    max-width: 1180px;
     margin: auto;
 }
-.header_nav_list-item_link {
+.header {
     display: flex;
     justify-content: space-between;
     background-color: #e5e5e5;
@@ -10,10 +10,6 @@
     font-family: Montserrat;
     padding: 0px 0px 0px 0px;
     font-size: 20px;
-    margin-top: 50px;
-    margin-bottom: 2905px;
-    margin-left: 12px;
-    margin-right: 10px;
     cursor: pointer;
 }
 .header_nav_list-item_link_contact_us {
@@ -23,16 +19,23 @@
     color: #1e0606;
     font-family: Montserrat;
     font-size: 20px;
-    margin-top: 50px;
-    margin-bottom: 2905px;
-    margin-left: 400px;
-    margin-right: 10px;
     cursor: pointer;
 }
 
-.header_nav_list{
+.header_li{
     display: flex;
     align-items: center;
+}
+
+.body {
+    font-family: "open sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1e0606;
+    margin: 0;
+    padding: 0;
 }
 
 .banner {
@@ -54,7 +57,7 @@
  color: #aaaaaa;
 }
 
-.footer_nav_list-item_link {
+.footer_li {
     color: #ffffff;
 }
 
