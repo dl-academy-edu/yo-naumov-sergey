@@ -1,0 +1,13 @@
+body{
+    size: 1400px;
+    font-family:"Montserrat";
+    src: url();
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
